@@ -5,6 +5,7 @@ Plays a sequence of sounds through the stereo headphone outputs followed by all 
 
 (c) 2019: Jonathan Reus
 */
+
 s = Server.default;
 
 s.options.numAnalogInChannels = 8; // can only be 2, 4 or 8
