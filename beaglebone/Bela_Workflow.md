@@ -17,6 +17,13 @@
     *Get the latest from your sync repository*
     bela> git pull jon master
 
+
+    *Make the example projects accesible from the repository*
+    bela> ln -s ~/augmentedattention/examples/all_outputs/ ~/Bela/projects/all_outputs
+    bela> ln -s ~/augmentedattention/examples/analog_inputs/ ~/Bela/projects/analog_inputs
+    bela> ln -s ~/augmentedattention/examples/datalogger/ ~/Bela/projects/datalogger
+    bela> ln -s ~/augmentedattention/examples/serial_comm/ ~/Bela/projects/serial_comm
+
     *Push changes from the bela to the dev repo*
     bela> git push jon master
     bela> exit
